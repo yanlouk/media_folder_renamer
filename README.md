@@ -10,22 +10,68 @@
       font-family: KaiTi, sans-serif;
       background-color: #f3f8fc;
       color: #333;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
     }
+
     h1, h2 {
       text-align: center;
+      color: #1a73e8;
     }
+
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+
     .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 30px;
       background: white;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
     }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    pre {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 16px;
+      overflow-x: auto;
+    }
+
     a {
       color: #1a73e8;
       text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      margin-top: 50px;
+      padding-bottom: 20px;
     }
   </style>
 </head>
@@ -95,5 +141,10 @@ python set_name.py
     </ul>
 
   </div>
+
+  <footer>
+    <p>© 2025 图视文件更名助手 - 所有权归作者所有。</p>
+  </footer>
+
 </body>
 </html>
