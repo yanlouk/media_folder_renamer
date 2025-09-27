@@ -29,7 +29,7 @@
 
 ```bash
 git clone https://github.com/Vaidurya/media_folder_renamer.git
-cd image-video-folder-renamer
+cd media_folder_renamer
 ```
 2.安装依赖
 
