@@ -28,7 +28,7 @@
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/Vaidurya/image-video-folder-renamer.git
+git clone https://github.com/Vaidurya/media_folder_renamer.git
 cd image-video-folder-renamer
 ```
 2.安装依赖
