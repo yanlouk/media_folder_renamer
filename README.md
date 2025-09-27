@@ -30,23 +30,32 @@
 ```bash
 git clone https://github.com/yourusername/image-video-folder-renamer.git
 cd image-video-folder-renamer
+```
 2.安装依赖
+
+```bash
 pip install -r requirements.txt
+```
 3.运行程序：
+
+```bash
 python set_name.py
+```
 4.在弹出的窗口中点击“浏览”选择父文件夹，然后点击“开始重命名”。程序将自动扫描并重命名文件夹。
-依赖
 
-tkinter：图形界面库
+## 依赖
 
-Pillow：图像处理库
+- tkinter：图形界面库
 
-re：正则表达式
+- Pillow：图像处理库
 
-os 与 unicodedata：文件路径与字符处理
+- re：正则表达式
 
-messagebox 与 ttk：消息框与自定义按钮样式
-许可证
+- os 与 unicodedata：文件路径与字符处理
+
+- messagebox 与 ttk：消息框与自定义按钮样式
+
+## 许可证
 
 本项目采用 MIT 许可证，详情请查看 LICENSE
  文件。
